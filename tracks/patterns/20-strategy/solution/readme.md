@@ -1,0 +1,6 @@
+# strategy solution
+
+
+```js
+
+```

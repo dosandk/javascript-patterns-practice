@@ -1,0 +1,6 @@
+# factoryMethod solution
+
+
+```js
+
+```

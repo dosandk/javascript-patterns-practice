@@ -1,0 +1,6 @@
+# singleton solution
+
+
+```js
+
+```

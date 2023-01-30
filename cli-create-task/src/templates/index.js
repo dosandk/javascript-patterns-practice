@@ -1,11 +1,9 @@
 const getIndexTemplate = taskName => `
-export const ${taskName} = () => {
-
-};
+export
 `;
 
 const getIndexSpecTemplate = (trackName, taskName) => `
-import { ${taskName} } from './solution/index.js';
+import {} from './solution/index.js';
 
 describe('${trackName.toLowerCase()}/${taskName}', () => {
   it('should be defined', () => {
@@ -17,32 +15,12 @@ describe('${trackName.toLowerCase()}/${taskName}', () => {
 `;
 
 const getSolutionTemplate = (taskName) => `
-export const ${taskName} = () => {
-  // [your solution here]
-};
+export
 `;
 
 const getReadmeTemplate = taskName => `
 # ${taskName}
 
-[опис задачі]
-
-[опційно: відео з поясненням задачі]
-
-**Приклад:**
-
-\`\`\`js
-// [код прикладу використання]
-${taskName};
-\`\`\`
-
-<details>
-  <summary>Підказка</summary>
-
----
-
-  [текст підказки]
-</details>
 `;
 
 const getIndexSpecHtmlTemplate = () => {
@@ -63,23 +41,12 @@ const getIndexSpecHtmlTemplate = () => {
 };
 
 const getReadmeSolutionTemplate = taskName => `
-# ${taskName}
+# ${taskName} solution
 
-Розв'язання цієї задачі може виглядати ось так:
 
 \`\`\`js
-const ${taskName} = () => {
-  // [your solution here]
-};
+
 \`\`\`
-
-[опційно: відео з поясненням розв'язання задачі]
-
-## Алгоритм дій:
-
-[опис алгоритму вирішення задачі]
-
-## Корисні посилання
 `;
 
 const getTaskTemplates = (taskPath, trackName, taskName) => {

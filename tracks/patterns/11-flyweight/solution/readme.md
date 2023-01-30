@@ -1,0 +1,6 @@
+# flyweight solution
+
+
+```js
+
+```

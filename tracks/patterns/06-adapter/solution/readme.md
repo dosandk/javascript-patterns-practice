@@ -1,0 +1,6 @@
+# adapter solution
+
+
+```js
+
+```

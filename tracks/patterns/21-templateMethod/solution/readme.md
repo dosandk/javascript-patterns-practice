@@ -1,0 +1,6 @@
+# templateMethod solution
+
+
+```js
+
+```
