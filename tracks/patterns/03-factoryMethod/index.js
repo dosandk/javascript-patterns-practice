@@ -19,4 +19,3 @@ export class EmailInput extends Input {
 export const inputFactory = (type = '') => {
   // todo: implement logic
 };
-

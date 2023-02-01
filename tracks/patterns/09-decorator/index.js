@@ -25,5 +25,3 @@ export class Sword extends WeaponDecorator {
 export class Bow extends WeaponDecorator {
   // todo: add implementation
 }
-
-
