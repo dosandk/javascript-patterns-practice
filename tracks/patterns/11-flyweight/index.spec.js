@@ -1,9 +1,41 @@
-import {} from './solution/index.js';
+import { ProductsStore } from './solution/index.js';
+
+const products = [
+  {
+    model: "m1",
+    info: {
+      name: "Apple",
+      country: "USA",
+      color: "silver"
+    }
+  },
+  {
+    model: "m2",
+    info: {
+      name: "Apple",
+      country: "USA",
+      color: "silver"
+    }
+  },
+  {
+    model: "m3",
+    info: {
+      name: "HP",
+      country: "China",
+      color: "black"
+    }
+  }
+];
 
 describe('patterns/flyweight', () => {
-  it('should be defined', () => {
-    expect(flyweight).toBeDefined();
-  });
+  it('should be able to store shared product state inside flyweights', () => {
+    const store = new ProductsStore();
 
-  // [your tests here]
+    for (const product of products) {
+      store.addProduct(product);
+    }
+
+    expect(store.products.length).toBe(3);
+    expect(Object.keys(store.flyweights).length).toBe(2);
+  });
 });
