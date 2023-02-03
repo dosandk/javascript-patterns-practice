@@ -1,9 +1,17 @@
-import {} from './solution/index.js';
+import { NewsChannel, User } from './solution/index.js';
 
 describe('patterns/observer', () => {
-  it('should be defined', () => {
-    expect(observer).toBeDefined();
-  });
+  it('should be able to notify every subscriber', () => {
+    const channel = new NewsChannel();
+    const john = new User('John');
+    const peter = new User("Peter");
 
-  // [your tests here]
+    channel.subscribe(john);
+    channel.subscribe(peter);
+
+    channel.notify("hello everyone");
+
+    expect(john.messagesHistory.at(-1)).toBe("hello everyone");
+    expect(peter.messagesHistory.at(-1)).toBe("hello everyone");
+  });
 });

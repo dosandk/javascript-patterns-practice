@@ -22,5 +22,3 @@ export class ProxyUser {
     return "user does not have permissions to write";
   }
 }
-
-

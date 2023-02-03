@@ -1,9 +1,33 @@
-import {} from './solution/index.js';
+import { Pagination, Button, PrevPage, NextPage } from './solution/index.js';
 
 describe('patterns/command', () => {
-  it('should be defined', () => {
-    expect(command).toBeDefined();
+  let pagination;
+  let prevButton;
+  let nextButton;
+
+  beforeEach(() => {
+    pagination = new Pagination();
+
+    const prevPageCommand = new PrevPage(pagination);
+    const nextPageCommand = new NextPage(pagination);
+
+    prevButton = new Button(prevPageCommand);
+    nextButton = new Button(nextPageCommand);
   });
 
-  // [your tests here]
+  afterEach(() => {
+    pagination = null;
+    prevButton = null;
+    nextButton = null;
+  });
+
+  it('should be able to change current page to the previous', () => {
+    prevButton.click();
+    expect(pagination.currentPage).toBe(0);
+  });
+
+  it('should be able to change current page to the next', () => {
+    nextButton.click();
+    expect(pagination.currentPage).toBe(2);
+  });
 });

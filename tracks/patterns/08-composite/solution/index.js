@@ -4,7 +4,6 @@ export class Child {
   }
 
   getSum () {
-    // todo: add your logic here
     return this.value;
   }
 }
@@ -15,7 +14,6 @@ export class Parent {
   }
 
   getSum () {
-    // todo: add your logic here
     let sum = 0;
 
     for (const item of this.values) {

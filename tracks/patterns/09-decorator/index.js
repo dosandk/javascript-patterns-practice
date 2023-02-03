@@ -1,27 +1,20 @@
-export class Warrior {
-  constructor(name) {
-    this.name = name;
-  }
-}
+export class Milk {
+  price = 2;
 
-class WeaponDecorator {
-  constructor() {
-    // todo: add implementation
-  }
-
-  attack () {
-    // todo: add implementation
-  }
-}
-
-export class Axe extends WeaponDecorator {
   // todo: add implementation
 }
 
-export class Sword extends WeaponDecorator {
+export class Sugar {
+  price = 1;
+
   // todo: add implementation
 }
 
-export class Bow extends WeaponDecorator {
-  // todo: add implementation
+export class Coffee {
+  price = 5;
+
+  getPrice () {
+    return this.price;
+  }
 }
+

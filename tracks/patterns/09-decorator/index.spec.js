@@ -1,13 +1,13 @@
-import { Axe, Bow, Sword, Warrior } from './solution/index.js';
+import { Coffee, Milk, Sugar } from './solution/index.js';
 
 describe('patterns/decorator', () => {
-  it('should be able to extend warrior class via composition', () => {
-    const barbarian = new Axe(new Warrior('Barbarian'));
-    const paladin = new Sword(new Warrior('Paladin'));
-    const amazon = new Bow(new Warrior('Amazon'));
+  it('should be able to extend the object behavior', () => {
+    const coffeeWithMilkAndSugar = new Milk(new Sugar(new Coffee()));
+    const coffeeWithMilk = new Milk(new Coffee());
+    const coffeeWithSugar = new Sugar(new Coffee());
 
-    expect(barbarian.attack()).toBe('Barbarian attacks with axe');
-    expect(paladin.attack()).toBe('Paladin attacks with sword');
-    expect(amazon.attack()).toBe('Amazon attacks with bow');
+    expect(coffeeWithMilkAndSugar.getPrice()).toBe(8);
+    expect(coffeeWithMilk.getPrice()).toBe(7);
+    expect(coffeeWithSugar.getPrice()).toBe(6);
   });
 });

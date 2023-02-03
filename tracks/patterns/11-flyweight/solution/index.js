@@ -11,7 +11,6 @@ export class ProductsStore {
   addProduct (productData = {}) {
     const productFlyweight = this.getOrCreateFlyweight(productData.info);
 
-    // todo: add implementation
     const product = {
       model: productData.model,
       info: productFlyweight.sharedState
@@ -21,7 +20,6 @@ export class ProductsStore {
   }
 
   getOrCreateFlyweight (info = {}) {
-    // todo: add implementation
     const key = Object.values(info).map(item => item.toLowerCase()).join('-');
 
     if (this.flyweights[key]) {

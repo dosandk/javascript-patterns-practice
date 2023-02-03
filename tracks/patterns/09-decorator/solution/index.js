@@ -1,43 +1,31 @@
-export class Warrior {
-  constructor(name) {
-    this.name = name;
+export class Milk {
+  price = 2;
+
+  constructor(drink) {
+    this.drink = drink;
+  }
+
+  getPrice () {
+    return this.drink.getPrice() + this.price;
   }
 }
 
-class WeaponDecorator {
-  name = '';
+export class Sugar {
+  price = 1;
 
-  constructor(warrior) {
-    this.warrior = warrior;
+  constructor(drink) {
+    this.drink = drink;
   }
 
-  attack () {
-    return `${this.warrior.name} attacks with ${this.name}`;
-  }
-}
-
-export class Axe extends WeaponDecorator {
-  name = 'axe';
-
-  constructor(warrior) {
-    super(warrior);
+  getPrice () {
+    return this.drink.getPrice() + this.price;
   }
 }
 
-export class Sword extends WeaponDecorator {
-  name = 'sword';
+export class Coffee {
+  price = 5;
 
-  constructor(warrior) {
-    super(warrior);
+  getPrice () {
+    return this.price;
   }
 }
-
-export class Bow extends WeaponDecorator {
-  name = 'bow';
-
-  constructor(warrior) {
-    super(warrior);
-  }
-}
-
-
