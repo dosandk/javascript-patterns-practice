@@ -3,6 +3,8 @@ class Monster {
 }
 
 export default class Location {
+  monsters = [];
+
   constructor(name = '', monstersCount = 0, monstersSettings = {}) {
     this.name = name;
     // todo: implement logic

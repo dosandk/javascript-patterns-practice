@@ -4,7 +4,7 @@ export class RedColorsPallet {
   }
 }
 
-export class GreenColorPallet {
+export class GreenColorsPallet {
   constructor () {
     this.color = 'green';
   }

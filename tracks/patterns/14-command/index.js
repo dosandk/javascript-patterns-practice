@@ -24,10 +24,10 @@ export class Pagination {
 
 export class Button {
   constructor (command) {
-    this.command = command;
+    // todo: add implementation
   }
 
   click () {
-    return this.command.execute();
+    // todo: add implementation
   }
 }

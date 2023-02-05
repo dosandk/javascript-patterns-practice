@@ -1,9 +1,13 @@
 export class RedColorsPallet {
-  // todo: add implementation
+  constructor () {
+    this.color = 'red';
+  }
 }
 
-export class GreenColorPallet {
-  // todo: add implementation
+export class GreenColorsPallet {
+  constructor () {
+    this.color = 'green';
+  }
 }
 
 export class Notification {

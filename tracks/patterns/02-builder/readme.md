@@ -1,6 +1,6 @@
 # Builder
 
-Пожалуйтса реализуйте методы `addInput` и `addTextArea` класса `FormBuilder`,
+Пожалуйста, реализуйте методы `addInput` и `addTextArea` класса `FormBuilder`,
 к-е позволят создавать html-формы различной конфигурации:
 
 ```js

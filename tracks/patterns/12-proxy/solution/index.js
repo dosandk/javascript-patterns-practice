@@ -10,6 +10,8 @@ export class User {
 }
 
 export class ProxyUser {
+  rights = [];
+
   constructor(user) {
     this.user = user;
   }
