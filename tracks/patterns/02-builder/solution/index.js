@@ -1,31 +1,26 @@
-export default class FormBuilder {
-  constructor() {
-    this.createElement();
+export default class RequestBuilder {
+  constructor(url = '') {
+    this.url = new URL(url);
   }
 
-  createElement () {
-    this.element = document.createElement('form');
-  }
-
-  addInput ({ name = '', type = '' } = {}) {
-    const inputElement = document.createElement('input');
-
-    inputElement.type = type;
-    inputElement.name = name;
-
-    this.element.append(inputElement);
+  addPagination (start, end) {
+    this.url.searchParams.set('start', start);
+    this.url.searchParams.set('end', end);
 
     return this;
   }
 
-  addTextArea ({ name = '' } = {}) {
-    const textareaElement = document.createElement('textarea');
+  addSort (sort, order) {
+    this.url.searchParams.set('sort', sort);
+    this.url.searchParams.set('order', order);
 
-    textareaElement.name = name;
-    textareaElement.rows = 4;
-    textareaElement.cols = 50;
+    return this;
+  }
 
-    this.element.append(textareaElement);
+  addFilter (filter, filterLte, filterGte) {
+    this.url.searchParams.set('filter', filter);
+    this.url.searchParams.set('filter_lte', filterLte);
+    this.url.searchParams.set('filter_gte', filterGte);
 
     return this;
   }

@@ -1,4 +1,4 @@
-import {Hero, History} from './solution/index.js';
+import { Hero, History } from './solution/index.js';
 
 describe('patterns/memento', () => {
   let history;

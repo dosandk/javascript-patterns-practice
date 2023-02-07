@@ -1,33 +1,34 @@
-import FormBuilder from './solution/index.js';
+import RequestBuilder from './solution/index.js';
 
 describe('patterns/builder', () => {
-  it('should be able to add input element', () => {
-    const form = new FormBuilder();
+  it('should be able to add pagination to the request object', () => {
+    const request = new RequestBuilder('https://example.com');
 
-    form
-      .addInput({ name: 'userLogin', type: 'text' });
+    request
+      .addPagination(10, 20);
 
-    expect(form.element.querySelector('input[name="userLogin"]')).toBeDefined();
+    expect(request.url.searchParams.get('start')).toBe('10');
+    expect(request.url.searchParams.get('end')).toBe('20');
   });
 
-  it('should be able to add a few input elements', () => {
-    const form = new FormBuilder();
+  it('should be able to add a sorting params to request object', () => {
+    const request = new RequestBuilder('https://example.com');
 
-    form
-      .addInput({ name: 'userLogin', type: 'text' })
-      .addInput({ name: 'userPass', type: 'pass' });
+    request
+      .addSort('name', 'desc');
 
-    expect(form.element.querySelectorAll('input')).toHaveSize(2);
+    expect(request.url.searchParams.get('sort')).toBe('name');
+    expect(request.url.searchParams.get('order')).toBe('desc');
   });
 
-  it('should be able to add a mix of inputs and textarea elements', () => {
-    const form = new FormBuilder();
+  it('should be able to add a filter params to the request object', () => {
+    const request = new RequestBuilder('https://example.com');
 
-    form
-      .addInput({ name: 'userLogin', type: 'text' })
-      .addTextArea({ name: 'userBio' });
+    request
+      .addFilter('age', 18, 27);
 
-    expect(form.element.querySelector('input[name="userLogin"]')).toBeDefined();
-    expect(form.element.querySelector('textarea[name="userBio"]')).toBeDefined();
+    expect(request.url.searchParams.get('filter')).toBe('age');
+    expect(request.url.searchParams.get('filter_lte')).toBe('18');
+    expect(request.url.searchParams.get('filter_gte')).toBe('27');
   });
 });

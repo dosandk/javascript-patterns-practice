@@ -1,17 +1,17 @@
-export default class FormBuilder {
-  constructor() {
-    this.createElement();
+export default class RequestBuilder {
+  constructor(url = '') {
+    this.url = new URL(url);
   }
 
-  createElement () {
-    this.element = document.createElement('form');
-  }
-
-  addInput ({ name = '', type = '' } = {}) {
+  addPagination (start, end) {
     // todo: implement logic
   }
 
-  addTextArea ({ name = '' } = {}) {
+  addSort (sort, order) {
+    // todo: implement logic
+  }
+
+  addFilter (filter, filterLte, filterGte) {
     // todo: implement logic
   }
 }

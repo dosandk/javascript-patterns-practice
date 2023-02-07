@@ -1,18 +1,17 @@
 # Builder
 
-Пожалуйста, реализуйте методы `addInput` и `addTextArea` класса `FormBuilder`,
-к-е позволят создавать html-формы различной конфигурации:
+> Позволяет создавать сложные объекты пошагово.
+
+- Type: Creational
+- Complexity: ⭐⭐
+
+Пожалуйста, реализуйте методы `addPagination`, `addSort` и `addFilter`
+класса `RequestBuilder`, к-е позволят создавать объекты запросов на сервер
+различной конфигурации.
 
 ```js
-const loginForm = new FormBuilder();
-
-loginForm
-  .addInput({ name: 'userLogin', type: 'text' })
-  .addInput({ name: 'userPass', type: 'password' });
-
-const commentForm = new FormBuilder();
-
-commentForm
-  .addInput({ name: 'commentTitle', type: 'text' })
-  .addTextArea({ name: 'commentBody', type: 'text' })
+const request = new RequestBuilder()
+  .addPagination(10, 20)
+  .addSort('name', 'asc')
+  .addFilter('age', 18, 36);
 ```

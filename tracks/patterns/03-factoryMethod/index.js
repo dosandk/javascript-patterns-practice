@@ -1,6 +1,8 @@
 class Input {
+  element = {};
+
   create () {
-    this.element = document.createElement('input');
+    // Abstract method
   }
 }
 
