@@ -34,7 +34,6 @@ export class ErrorControl {
 
 export default class ControlsFactory {
   getFactory (factoryType = '') {
-    // todo: implement
     switch (factoryType) {
     case 'success':
       return new SuccessControl();

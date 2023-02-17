@@ -1,7 +1,7 @@
-import {Comment, Visitor} from './solution/index.js';
+import { Comment, Visitor } from './solution/index.js';
 
 describe('patterns/visitor', () => {
-  it('should be defined', () => {
+  it('should be able to calculate nesting levels', () => {
     const list = new Comment({
       id: "comment-1",
       content: "text content for comment-1",
@@ -21,11 +21,4 @@ describe('patterns/visitor', () => {
 
     expect(list.getSize()).toBe(3);
   });
-
-  // [your tests here]
 });
-
-list.accept(Visitor);
-
-console.error(list);
-console.error(list.getSize());

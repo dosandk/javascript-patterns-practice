@@ -1,5 +1,5 @@
 class HotDrinksPot {
-  algorithmSteps = [];
+  algorithmSteps = {};
 
   constructor() {
     this.prepareRecipe();
@@ -13,38 +13,38 @@ class HotDrinksPot {
   }
 
   boilWater () {
-    this.algorithmSteps.push('Boiling water');
+    this.algorithmSteps.boilWater = 'Boiling water';
   }
 
   brew () {
-    this.algorithmSteps.push('Brewing');
+    this.algorithmSteps.brew = 'Brewing';
   }
 
   pourInCup () {
-    this.algorithmSteps.push('Pouring into cup');
+    this.algorithmSteps.pourInCup = 'Pouring into cup';
   }
 
   addCondiments () {
-    this.algorithmSteps.push('Adding condiment');
+    this.algorithmSteps.addCondiments = 'Adding condiment';
   }
 }
 
 export class TeaPot extends HotDrinksPot {
   brew () {
-    this.algorithmSteps.push('Steeping the tea');
+    this.algorithmSteps.brew = 'Steeping the tea';
   }
 
   addCondiments () {
-    this.algorithmSteps.push('Adding Lemon');
+    this.algorithmSteps.addCondiments = 'Adding Lemon';
   }
 }
 
 export class CoffeePot extends HotDrinksPot {
   brew () {
-    this.algorithmSteps.push('Dripping Coffee through filter');
+    this.algorithmSteps.brew = 'Dripping Coffee through filter';
   }
 
   addCondiments () {
-    this.algorithmSteps.push('Adding Sugar and Milk');
+    this.algorithmSteps.addCondiments = 'Adding Sugar and Milk';
   }
 }
