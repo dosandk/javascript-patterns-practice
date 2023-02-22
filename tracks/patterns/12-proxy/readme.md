@@ -29,7 +29,7 @@
 ```js
 
 const user = new User("John", ["member"]);
-const proxy = new ProxyUser();
+const proxy = new ProxyUser(user);
 
 proxy.write(); // "user does not have permissions to write"
 ```

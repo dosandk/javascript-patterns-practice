@@ -9,18 +9,17 @@ export class Child {
 }
 
 export class Parent {
-  constructor(values = []) {
-    this.values = values;
+  constructor(children = []) {
+    this.children = children;
   }
 
   getSum () {
     let sum = 0;
 
-    for (const item of this.values) {
-      sum += item.getSum();
+    for (const child of this.children) {
+      sum += child.getSum();
     }
 
     return sum;
   }
 }
-
