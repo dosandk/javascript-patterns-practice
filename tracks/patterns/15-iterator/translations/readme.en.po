@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 14:40+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:2
+msgid "# Iterator"
+msgstr "# Iterator"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:5
+msgid ""
+"> Позволяет итерировать некоторую сущность не раскрывая ее внутреннего\n"
+"> устройства."
+msgstr ""
+"> Allows you to iterate some entity without revealing its internal\n"
+"> device."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:10
+msgid "Пожалуйста, реализуйте методы `forEach` и `getRange` класса `Range`."
+msgstr ""
+"Please implement the `forEach` and `getRange` methods of the `Range` class."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:14
+msgid ""
+"Метод `forEach` позволяет выполнить итерацию используя параметры `start`\n"
+"и `end` класса `Range`, применяя ф-цию \"callback\", переданную в качестве "
+"аргумента, \n"
+"на каждом этапе итерации."
+msgstr ""
+"The `forEach` method allows to iterate using the `start` parameters\n"
+"and `end` parameters of the `Range` class, using the `callback` function "
+"passed as an argument,\n"
+"at each step of the iteration."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:15
+msgid ""
+"Метод `getRange` генерирует и возвращает массив чисел от `start` до `end`."
+msgstr ""
+"The `getRange` method generates and returns an array of numbers from "
+"`start` to `end`."

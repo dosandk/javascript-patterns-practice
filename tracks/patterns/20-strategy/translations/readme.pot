@@ -1,0 +1,55 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:2
+msgid "# Strategy"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:5
+msgid ""
+"> Определяет семейство схожих алгоритмов, после чего алгоритмы можно\n"
+"> взаимозаменять прямо во время исполнения программы"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:11
+msgid ""
+"Представьте что Вы разрабатываете компьютерную игру, где Ваш герой\n"
+"отправляется навстречу приключениям, попутно сражаясь с монстрами."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:14
+msgid ""
+"От того какое оружие Ваш герой найдет на тропе приключений,\n"
+"будет зависеть сила его атаки против монстров."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:17
+msgid ""
+"Пожалуйста, реализуйте метод `attack` в каждом из классов `Sword` и "
+"`MagicWand`\n"
+"по аналогии с классом `Club` "
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:18
+msgid ""
+"Организуйте связь между классом `Hero` и видами оружия через паттерн "
+"\"Strategy\"."
+msgstr ""

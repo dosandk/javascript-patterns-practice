@@ -1,0 +1,70 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:2
+msgid "# Decorator"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:5
+msgid ""
+"> С помощью \"оберток\" реализует динамическое расширение функционала \n"
+"> используя механизм агрегации или композиции."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:8
+msgid ""
+"- Type: Structural\n"
+"- Complexity: ⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:11
+msgid ""
+"Необходимо реализовать декораторы `Milk` и `Sugar` к-е будут вносить\n"
+"изменения в расчет стоимости кофе."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:14
+msgid ""
+"В каждом из классов `Milk` и `Sugar` необходимо объявить метод `getPrice`,\n"
+"к-й внесет коррективы в итоговую стоимость напитка."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:17
+msgid ""
+"```js\n"
+"const coffee = new Coffee();"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:19
+msgid "coffee.getPrice(); // 5"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:21
+msgid "const coffeeWithSugar = new Sugar(coffee);"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:23
+msgid "coffeeWithSugar.getPrice(); // 6"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:25
+msgid "const coffeeWithMilk = new Milk(new Coffee());"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:27
+msgid ""
+"coffeeWithMilk.getPrice(); // 7\n"
+"```"
+msgstr ""

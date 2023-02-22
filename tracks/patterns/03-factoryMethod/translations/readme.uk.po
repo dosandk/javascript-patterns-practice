@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 16:37+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:2
+msgid "# Factory Method"
+msgstr "# Factory Method"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:5
+msgid ""
+"> Определяет общий интерфейс для создания объектов в суперклассе,\n"
+"> позволяя подклассам изменять тип создаваемых объектов."
+msgstr ""
+"> Визначає загальний інтерфейс для створення об'єктів у суперкласі,\n"
+"> дозволяючи підкласам змінювати тип створюваних об'єктів."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:8
+msgid ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐⭐"
+msgstr ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:11
+msgid ""
+"Представьте что в приложении, к-е Вы разрабатываете, появилась потребность "
+"динамически\n"
+"создавать \"input\" эл-ты различных типов: \"text\", \"number\", \"email\" и "
+"т.д."
+msgstr ""
+"Уявіть що в додатку, який Ви розробляєте, з'явилася потреба динамічно\n"
+"створювати \"input\" ел-ти різних типів: \"text\", \"number\", \"email\" "
+"тощо."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:14
+msgid ""
+"Более того, данный список в будущем может быть расширен, поэтому вы не "
+"хотите напрямую\n"
+"зависеть от классов соответствующих эл-тов: `TextInput`, `NumberInput`, "
+"`EmailInput`."
+msgstr ""
+"Більше того, цей список у майбутньому може бути розширено, тому ви не хочете "
+"безпосередньо\n"
+"залежати від класів відповідних ел-тів: `TextInput`, `NumberInput`, "
+"`EmailInput`."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:17
+msgid ""
+"Чтобы избавится от прямой зависимости компонент от классов,\n"
+"создающих инпуты, Вы решили воспользоваться паттерном \"Factory Method\"."
+msgstr ""
+"Щоб позбутися прямої залежності компонент від класів,\n"
+"що створюють інпути, Ви вирішили скористатися патерном \"Factory Method\"."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:21
+msgid ""
+"Пожалуйста, реализуйте логику добавление типа инпута в классах\n"
+"`TextInput`, `NumberInput`, `EmailInput`, расширив поведение метода `create` "
+"в этих\n"
+"подклассах:"
+msgstr ""
+"Будь ласка, реалізуйте логіку додавання типу інпута в класах\n"
+"`TextInput`, `NumberInput`, `EmailInput`, розширивши поведінку методу "
+"`create` у цих\n"
+"підкласах:"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:25
+msgid ""
+"```js\n"
+"this.element.type = 'text';\n"
+"```"
+msgstr ""
+"```js\n"
+"this.element.type = ‘text’;\n"
+"```"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/03-factoryMethod/readme.md:27
+msgid ""
+"Также реализуйте логику ф-ции `inputFactory`, к-я, в зависимости от "
+"входящего аргумента,\n"
+"`type`, будет создавать инпут соответствующего типа."
+msgstr ""
+"Також реалізуйте логіку ф-ції `inputFactory`, яка, залежно від вхідного "
+"аргументу,\n"
+"`type`, створюватиме інпут відповідного типу."

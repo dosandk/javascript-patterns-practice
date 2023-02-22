@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 14:16+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:2
+msgid "# Template Method"
+msgstr "# Template Method"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:5
+msgid ""
+"> Определяет скелет алгоритма, перекладывая ответственность за \n"
+"> некоторые его шаги на подклассы или методы"
+msgstr ""
+"> Defines the skeleton of an algorithm, shifting the responsibility for\n"
+"> some of its steps to subclasses or methods"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐"
+msgstr ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:11
+msgid ""
+"Необходимо реализовать класс `HotDrinksPot` к-й будут расширять\n"
+"классы `TeaPot` и `CoffeePot`."
+msgstr ""
+"You need to implement the class `HotDrinksPot` which will be extended by\n"
+"classes `TeaPot` and `CoffeePot`."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:12
+msgid ""
+"А также реализовать класс `HotDrinksPot` с применением паттерна \"Template "
+"Method\"."
+msgstr ""
+"And also implement the `HotDrinksPot` class using the Template Method "
+"pattern."

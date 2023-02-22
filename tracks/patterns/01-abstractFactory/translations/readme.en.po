@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 14:09+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:2
+msgid "# Abstract Factory"
+msgstr "# Abstract Factory"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:5
+msgid ""
+"> Позволяет создавать семейства связанных объектов, не привязываясь \n"
+"> к конкретным классам создаваемых объектов."
+msgstr ""
+"> Allows you to create families of related objects without being bound to\n"
+"allows you to create families of related objects without being bound > to "
+"specific classes of objects you create."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:8
+msgid ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:11
+msgid ""
+"Представте что Вы разрабатываете сложную библиотеку UI-компонентов \n"
+"для web-приложения."
+msgstr ""
+"Imagine you are developing a complex library of UI components\n"
+"for a web application."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:14
+msgid ""
+"В ходе реализации у Вас возникла потребность создавать компоненты в\n"
+"единой стилистике."
+msgstr ""
+"During the implementation, you had the need to create components in\n"
+"in the course of the implementation, you had the need to create components "
+"in the same style."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:17
+msgid ""
+"К примеру, компонент кнопки или нотификейшена может быть отображен в зеленой "
+"цветовой гамме, \n"
+"для подтверждения успешных действий пользователя."
+msgstr ""
+"For example, the button or notification component can be displayed in "
+"green,\n"
+"to confirm successful user actions."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:20
+msgid ""
+"Либо компонент может быть окрашен в красную цветовую гамму, что будет\n"
+"сигнализировать об ошибке в процессе какого-то действия."
+msgstr ""
+"Or the component can be colored red, which will\n"
+"or the component can be colored red to signal an error in the process of "
+"some action."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:23
+msgid ""
+"Для того чтобы иметь возможность гибко создавать, расширять и настраивать\n"
+"библиотеку компонент, Вы решили воспользоваться паттерном \"Abstract "
+"Factory\"."
+msgstr ""
+"In order to be able to flexibly create, extend, and customize\n"
+"you decided to use the Abstract Factory pattern in order to flexibly create "
+"and expand and customize your component library."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:26
+msgid ""
+"Пожалуйста, реализуйте метод `create` для каждой из фабрик: "
+"`SuccessControl`,\n"
+"`ErrorControl`, к-й будет создавать компоненты соответствующего типа."
+msgstr ""
+"Please implement method `create` for each of factories: `SuccessControl`,\n"
+"`ErrorControl`, which will create components of the corresponding type."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/01-abstractFactory/readme.md:28
+msgid ""
+"Также реализуйте абстрактную фабрику `ControlsFactory` к-я будет создавать "
+"фабрики\n"
+"`SuccessControl` и `ErrorControl`"
+msgstr ""
+"Also implement an abstract factory `ControlsFactory` which will create the "
+"factories\n"
+"`SuccessControl` and `ErrorControl`"

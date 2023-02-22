@@ -1,0 +1,73 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:2
+msgid "# Facade"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:5
+msgid ""
+"> Предоставляет простой интерфейс к сложной сущности: набору методов\n"
+"> класса, библиотеке, фреймворку и т.д."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:8
+msgid ""
+"- Type: Structural\n"
+"- Complexity: ⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:12
+msgid ""
+"Представьте что Вы разрабатываете компьютерную игру, где герой, отправляясь\n"
+"навстречу приключениям должен сражаться с монстрами в разных игровых \n"
+"локациях."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:15
+msgid ""
+"Ваша работа находится на завершающей стадии, готовы классы `Location`,\n"
+"`Hero` и `Monster`."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:17
+msgid "Все что осталось - это создать объекты соответствующих классов:"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:21
+msgid ""
+"```js\n"
+"this.hero = new Hero('Barbarian');\n"
+"this.location = new Location('darkForest');"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:26
+msgid ""
+"this.location.addMonster(new Monster('demon'));\n"
+"this.location.addMonster(new Monster('demon'));\n"
+"this.location.addMonster(new Monster('undead'));\n"
+"```"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:30
+msgid ""
+"Для того чтобы упростить работу с инициализацией игры, Вы решаете создать\n"
+"еще один класс `Game`, чтобы поместить в него всю логику, отвечающую за\n"
+"старт игры."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:31
+msgid "Пожалуйста, реализуйте метод `start` класса `Game` для запуска игры."
+msgstr ""

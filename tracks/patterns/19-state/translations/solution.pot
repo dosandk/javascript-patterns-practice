@@ -1,0 +1,97 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:2
+msgid "# State solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:6
+msgid ""
+"```js\n"
+"class Locked {\n"
+"  status = \"locked\";"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:10
+msgid ""
+"  constructor(key) {\n"
+"    this.key = key;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:15
+msgid ""
+"  next (combination) {\n"
+"    if (combination === this.key) {\n"
+"      return new Unlocked();\n"
+"    }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:19
+msgid ""
+"    return this;\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:22
+msgid ""
+"class Unlocked {\n"
+"  status = \"unlocked\";"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:26
+msgid ""
+"  constructor(key = '') {\n"
+"    this.key = key;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:31
+msgid ""
+"  next (combination) {\n"
+"    if (combination) {\n"
+"      return new Locked(combination);\n"
+"    }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:35
+msgid ""
+"    return new Locked(this.key);\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:40
+msgid ""
+"export class DigitalLock {\n"
+"  constructor(key = \"\") {\n"
+"    this.state = new Locked(key);\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:43
+msgid ""
+"  toggle (combination = '') {\n"
+"    this.state = this.state.next(combination);"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/solution/readme.md:47
+msgid ""
+"    return this.state.status;\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

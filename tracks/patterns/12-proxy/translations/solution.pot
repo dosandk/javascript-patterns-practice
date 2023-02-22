@@ -1,0 +1,60 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/solution/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/solution/readme.md:2
+msgid "# Proxy solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/solution/readme.md:9
+msgid ""
+"```js\n"
+"export class User {\n"
+"  constructor(name, rights = []) {\n"
+"    this.name = name;\n"
+"    this.rights = rights;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/solution/readme.md:14
+msgid ""
+"  write () {\n"
+"    return \"write something to repo\";\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/solution/readme.md:19
+msgid ""
+"export class ProxyUser {\n"
+"  constructor(user) {\n"
+"    this.user = user;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/solution/readme.md:24
+msgid ""
+"  write () {\n"
+"    if (this.user.rights.includes('admin')) {\n"
+"      return this.user.write();\n"
+"    }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/solution/readme.md:28
+msgid ""
+"    return \"user does not have permissions to write\";\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

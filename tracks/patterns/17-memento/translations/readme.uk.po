@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 14:33+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/readme.md:2
+msgid "# Memento"
+msgstr "# Memento"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/readme.md:5
+msgid ""
+"> Позволяет сохранять и восстанавливать прошлые состояния объектов, \n"
+"> не раскрывая подробностей их реализации"
+msgstr ""
+"> Дозволяє зберігати і відновлювати минулі стани об'єктів,\n"
+"> не розкриваючи подробиць їхньої реалізації"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐⭐"
+msgstr ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/readme.md:11
+msgid ""
+"Представьте что в компьютерной игре, к-ю Вы разрабатываете,\n"
+"появилась необходимость реализовать механизм сохранения прогресса."
+msgstr ""
+"Уявіть що в комп'ютерній грі, яку Ви розробляєте,\n"
+"з'явилася необхідність реалізувати механізм збереження прогресу."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/readme.md:15
+msgid ""
+"Ваш герой, реализованный классом `Hero` имеет два метода `increaseLevel`\n"
+"и `addSkill`, к-е соответственно повышают текущий уровень героя и "
+"добавляют\n"
+"ему новые умения."
+msgstr ""
+"Ваш герой, реалізований класом `Hero` має два методи `increaseLevel`\n"
+"і `addSkill`, які відповідно підвищують поточний рівень героя і додають\n"
+"йому нові вміння."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/readme.md:18
+msgid ""
+"Пожалуйста, реализуйте классы `History` и `Memento`, к-е позволят "
+"управлять\n"
+"сохранениями и возвращаться к предыдущим состояниям Вашего героя."
+msgstr ""
+"Будь ласка, реалізуйте класи `History` і `Memento`, які дадуть змогу "
+"керувати\n"
+"збереженнями і повертатися до попередніх станів Вашого героя."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/readme.md:20
+msgid ""
+"**Обратите внимание**, что уровень героя и его умения хранятся в приватном "
+"св-ве \n"
+"`#state` класса `Hero`."
+msgstr ""
+"**Зверніть увагу**, що рівень героя і його вміння зберігаються в "
+"приватному полі\n"
+"`#state` класу `Hero`."

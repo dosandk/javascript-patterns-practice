@@ -1,0 +1,56 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/solution/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/solution/readme.md:2
+msgid "# Adapter solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/solution/readme.md:7
+msgid ""
+"```js\n"
+"export const getArea = shape => {\n"
+"  return shape.width * shape.height;\n"
+"};"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/solution/readme.md:13
+msgid ""
+"export class Square {\n"
+"  constructor(size) {\n"
+"    this.size = size;\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/solution/readme.md:20
+msgid ""
+"export class Rectangle {\n"
+"  constructor(width, height) {\n"
+"    this.width = width;\n"
+"    this.height = height;\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/solution/readme.md:27
+msgid ""
+"export class Adapter {\n"
+"  constructor(shape) {\n"
+"    this.width = shape.size;\n"
+"    this.height = shape.size;\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

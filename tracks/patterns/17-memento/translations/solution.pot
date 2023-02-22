@@ -1,0 +1,118 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:2
+msgid "# Memento solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:6
+msgid ""
+"```js\n"
+"export class Memento {\n"
+"  #state = {};"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:10
+msgid ""
+"  constructor (state = {}) {\n"
+"    this.#state = JSON.parse(state);\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:15
+msgid ""
+"  getState () {\n"
+"    return this.#state;\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:18
+msgid ""
+"export class History {\n"
+"  #snapshots = [];"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:21
+msgid ""
+"  add (snapshot = {}) {\n"
+"    this.#snapshots.unshift(snapshot);"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:25
+msgid ""
+"    return this.#snapshots.at(0);\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:28
+msgid ""
+"export class Hero {\n"
+"  #name = '';"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:33
+msgid ""
+"  #state = {\n"
+"    level: 1,\n"
+"    skills: [],\n"
+"  };"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:38
+msgid ""
+"  constructor(name = '', history = {}) {\n"
+"    this.#name = name;\n"
+"    this.history = history;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:42
+msgid ""
+"  get state () {\n"
+"    return this.#state;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:46
+msgid ""
+"  addSkill (skill) {\n"
+"    this.#state.skills.push(skill);\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:50
+msgid ""
+"  increaseLevel () {\n"
+"    this.#state.level += 1;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:54
+msgid ""
+"  load (snapshot = {}) {\n"
+"    this.#state = snapshot.getState();\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/17-memento/solution/readme.md:59
+msgid ""
+"  save () {\n"
+"    return this.history.add(new Memento(JSON.stringify(this.#state)));\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

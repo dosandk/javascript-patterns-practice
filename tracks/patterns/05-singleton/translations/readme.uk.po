@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 16:27+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:2
+msgid "# Singleton"
+msgstr "# Singleton"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:4
+msgid "> Гарантирует, что у класса есть только один экземпляр"
+msgstr "> Гарантує, що у класу є тільки один екземпляр"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:7
+msgid ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:12
+msgid ""
+"Пожалуйста, реализуйте логику конструктора класса таким образом, чтобы\n"
+"при создании объектов с помощью данного класса, возвращалась ссылка\n"
+"на один и тот же объект, или, другими словами, объект с помощью "
+"данного\n"
+"класса был создан только один раз."
+msgstr ""
+"Будь ласка, реалізуйте логіку конструктора класу таким чином, щоб\n"
+"при створенні об'єктів за допомогою цього класу, поверталося посилання\n"
+"на один і той самий об'єкт, або, іншими словами, об'єкт за допомогою "
+"даного\n"
+"класу був створений тільки один раз."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:15
+msgid ""
+"```js\n"
+"console.log(new Singleton() === new Singleton()); // true\n"
+"```"
+msgstr ""
+"```js\n"
+"console.log(new Singleton() === new Singleton()); // true\n"
+"```"

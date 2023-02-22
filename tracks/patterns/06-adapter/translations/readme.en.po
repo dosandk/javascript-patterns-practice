@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 16:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:2
+msgid "# Adapter"
+msgstr "# Adapter"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:5
+msgid ""
+"> Позволяет объектам с несовместимыми интерфейсами работать вместе.\n"
+"> Превращает интерфейс одного класса в интерфейс, ожидаемый клиентом."
+msgstr ""
+"> Allows objects with incompatible interfaces to work together.\n"
+"> Turns an interface of one class into the interface expected by the client."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:8
+msgid ""
+"- Type: Structural\n"
+"- Complexity: ⭐"
+msgstr ""
+"- Type: Structural\n"
+"- Complexity: ⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:11
+msgid ""
+"Ф-ция `getArea` вычисляет площадь, перемножая св-ва `width` и `height` "
+"объекта, созданного\n"
+"классом `Rectangle`."
+msgstr ""
+"The `getArea` function calculates the area by multiplying the `width` and "
+"`height` properties of an object created by\n"
+"rectangle` class."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:14
+msgid ""
+"Пожалуйста, сконструируйте класс `Adapter`, к-й позволит использовать ф-цию "
+"`getArea` для\n"
+"вычисления площади объекта, созданного классом `Square`."
+msgstr ""
+"Please construct a class `Adapter` that allows you to use the `getArea` "
+"function to\n"
+"calculate the area of the object created by the class `Square`."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:17
+msgid ""
+"```js\n"
+"getArea(new Adapter(new Square(10))); // 100\n"
+"```"
+msgstr ""
+"```js\n"
+"getArea(new Adapter(new Square(10))); // 100\n"
+"```"

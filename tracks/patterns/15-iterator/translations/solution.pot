@@ -1,0 +1,58 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/solution/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/solution/readme.md:2
+msgid "# Iterator solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/solution/readme.md:9
+msgid ""
+"```js\n"
+"export class Range {\n"
+"  constructor(start, end) {\n"
+"    this.start = start;\n"
+"    this.end = end;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/solution/readme.md:15
+msgid ""
+"  forEach (callback) {\n"
+"    for (let item = this.start; item <= this.end; item += 1) {\n"
+"      callback(item);\n"
+"    }\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/solution/readme.md:18
+msgid ""
+"  getRange () {\n"
+"    const range = [];"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/solution/readme.md:22
+msgid ""
+"    this.forEach(item => {\n"
+"      range.push(item);\n"
+"    });"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/solution/readme.md:26
+msgid ""
+"    return range;\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 14:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:2
+msgid "# State"
+msgstr "# State"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:5
+msgid ""
+"> Позволяет объектам менять поведение в зависимости от своего \n"
+"> состояния"
+msgstr ""
+"> Allows objects to change behavior depending on their\n"
+"> state"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:11
+msgid ""
+"Представьте что Вам предстоит произвести рефакторинг очень непростого "
+"класса\n"
+"`OldDigitalLock`. "
+msgstr ""
+"Imagine you have to refactor a very difficult class\n"
+"`OldDigitalLock' class."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:14
+msgid ""
+"Данный класс работает по аналогии с кодовым замком, к-й часто можно "
+"встретить\n"
+"на дверцах шкафчиков в гардеробах или на цепочках для паркинга велосипедов."
+msgstr ""
+"This class works similarly to a code lock, which is often found\n"
+"on locker doors in checkrooms or on bicycle parking chains."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:16
+msgid "![](/assets/lock.png)"
+msgstr "![](/assets/lock.png)"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:20
+msgid ""
+"Ввод верной комбинации открывает замок и переводит его в состояние "
+"\"unlock\",\n"
+"повторный ввод комбинации в состоянии \"unlock\", позволяет задать новую \n"
+"комбинацию для открытия замка."
+msgstr ""
+"Entering the correct combination opens the lock and puts it in the "
+"\"unlock\" state,\n"
+"the second entry of the combination in the \"unlock\" state, allows you to "
+"set a new\n"
+"combination to open the lock."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:23
+msgid ""
+"Сложность класса заключается в методе `toggle` к-й наполнен вложенными "
+"условными\n"
+"конструкциями `if`."
+msgstr ""
+"The complexity of the class lies in the `toggle` method, which is filled "
+"with nested conditional\n"
+"`if` constructs."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:26
+msgid ""
+"К счастью Вы знакомы с паттерном `State`, к-й позволит распутать клубок "
+"вложенных\n"
+"`if`."
+msgstr ""
+"Fortunately you are familiar with the `State` pattern, which will allow you "
+"to untangle the tangle of nested\n"
+"`if`."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:29
+msgid ""
+"Пожалуйста, реализуйте классы `Locked` и `Unlocked` в к-рых будет храниться "
+"информация\n"
+"и логика поведения для каждого из состояний \"locked\" и \"unlocked\"."
+msgstr ""
+"Please implement classes `Locked` and `Unlocked` which will store "
+"information\n"
+"and logic for each of the `locked` and `unlocked` states."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:30
+msgid "Создайте связь классов `Locked` и `Unlocked` с классом `DigitalLock`"
+msgstr ""
+"Create a link between the `Locked` and `Unlocked` classes and the "
+"`DigitalLock` class"

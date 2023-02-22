@@ -1,0 +1,81 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:2
+msgid "# State"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:5
+msgid ""
+"> Позволяет объектам менять поведение в зависимости от своего \n"
+"> состояния"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:11
+msgid ""
+"Представьте что Вам предстоит произвести рефакторинг очень непростого "
+"класса\n"
+"`OldDigitalLock`. "
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:14
+msgid ""
+"Данный класс работает по аналогии с кодовым замком, к-й часто можно "
+"встретить\n"
+"на дверцах шкафчиков в гардеробах или на цепочках для паркинга велосипедов."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:16
+msgid "![](/assets/lock.png)"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:20
+msgid ""
+"Ввод верной комбинации открывает замок и переводит его в состояние \"unlock\""
+",\n"
+"повторный ввод комбинации в состоянии \"unlock\", позволяет задать новую \n"
+"комбинацию для открытия замка."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:23
+msgid ""
+"Сложность класса заключается в методе `toggle` к-й наполнен вложенными "
+"условными\n"
+"конструкциями `if`."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:26
+msgid ""
+"К счастью Вы знакомы с паттерном `State`, к-й позволит распутать клубок "
+"вложенных\n"
+"`if`."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:29
+msgid ""
+"Пожалуйста, реализуйте классы `Locked` и `Unlocked` в к-рых будет храниться "
+"информация\n"
+"и логика поведения для каждого из состояний \"locked\" и \"unlocked\"."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/19-state/readme.md:30
+msgid "Создайте связь классов `Locked` и `Unlocked` с классом `DigitalLock`"
+msgstr ""

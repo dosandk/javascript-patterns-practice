@@ -1,0 +1,42 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:2
+msgid "# Template Method"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:5
+msgid ""
+"> Определяет скелет алгоритма, перекладывая ответственность за \n"
+"> некоторые его шаги на подклассы или методы"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:11
+msgid ""
+"Необходимо реализовать класс `HotDrinksPot` к-й будут расширять\n"
+"классы `TeaPot` и `CoffeePot`."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/readme.md:12
+msgid ""
+"А также реализовать класс `HotDrinksPot` с применением паттерна \"Template "
+"Method\"."
+msgstr ""

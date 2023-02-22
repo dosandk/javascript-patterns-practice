@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 16:33+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:2
+msgid "# Prototype"
+msgstr "# Prototype"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:4
+msgid ""
+"> Позволяет копировать объекты, не вдаваясь в подробности иx реализации."
+msgstr ""
+"> Дає змогу копіювати об'єкти, не вдаючись у подробиці їхньої реалізації."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:7
+msgid ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:11
+msgid ""
+"Представьте что Вы разрабатываете компьютерную игру, где герой, "
+"отправляясь \n"
+"навстречу приключениям, должен посетить разные игровые локации и победить\n"
+"всех монстров на своем пути."
+msgstr ""
+"Уявіть, що Ви розробляєте комп'ютерну гру, де герой, вирушаючи\n"
+"назустріч пригодам, має відвідати різні ігрові локації та перемогти\n"
+"усіх монстрів на своєму шляху."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:15
+msgid ""
+"Для генерации игровых локаций Вы сконструировали класс `Location`, к-й \n"
+"принимает в качестве аргументов имя локации, кол-во монстров и объект \n"
+"с характеристиками монстров данной локации."
+msgstr ""
+"Для генерації ігрових локацій Ви сконструювали клас `Location`, який\n"
+"приймає як аргументи ім'я локації, кількість монстрів і об'єкт\n"
+"з характеристиками монстрів цієї локації."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:19
+msgid ""
+"Проанализировав требования к игровым локациям Вы пришли к выводу что они\n"
+"будут отличаться только характеристиками монстров к-е обитают в данной \n"
+"локации, а именно типом монстров."
+msgstr ""
+"Проаналізувавши вимоги до ігрових локацій Ви дійшли висновку що вони\n"
+"відрізнятимуться тільки характеристиками монстрів, які мешкають у цій\n"
+"локації, а саме типом монстрів."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:22
+msgid ""
+"Для того чтобы упростить задачу создания и настройки локаций, Вы приняли\n"
+"решения воспользоваться паттерном \"Prototype\"."
+msgstr ""
+"Для того щоб спростити завдання створення та налаштування локацій, Ви "
+"прийняли\n"
+"рішення скористатися патерном \"Prototype\"."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:25
+msgid ""
+"Пожалуйста, реализуйте метод `initMonsters` класса `Location`, задача к-го\n"
+"создать определенное кол-во монстров в локации (используйте класс `Monster`)."
+msgstr ""
+"Будь ласка, реалізуйте метод `initMonsters` класу `Location`, завдання к-го\n"
+"створити певну кількість монстрів у локації (використовуйте клас `Monster`)."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:28
+msgid ""
+"Добавьте в класс `Location` метод `clone` к-й позволит сделать точную\n"
+"копию текущей локации и в дальнейшем внести изменения."
+msgstr ""
+"Додайте в клас `Location` метод `clone` к-й дозволить зробити точну\n"
+"копію поточної локації і надалі внести зміни."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:32
+msgid ""
+"**Обратите внимание:** связь между локацией и монстрами должна "
+"осуществляться\n"
+"таким образом, что при изменении св-ва `monstersSetting` объекта локации,\n"
+"это должно повлиять на изменение св-в объектов монстров."
+msgstr ""
+"**Зверніть увагу:** зв'язок між локацією і монстрами повинен здійснюватися\n"
+"таким чином, що при зміні св-ва `monstersSetting` об'єкта локації,\n"
+"це має вплинути на зміну св-в об'єктів монстрів."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:36
+msgid ""
+"```js\n"
+"const location = new Location(\"dryHills\", 3, { type: \"undead\" });\n"
+"const newLocation = location.clone();"
+msgstr ""
+"```js\n"
+"const location = new Location(“dryHills”, 3, { type: “undead” });\n"
+"const newLocation = location.clone();"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:39
+msgid ""
+"newLocation.name = \"laveCavern\";\n"
+"newLocation.monstersSettings.type = \"demon\";"
+msgstr ""
+"newLocation.name = “laveCavern”;\n"
+"newLocation.monstersSettings.type = “demon”;"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/readme.md:42
+msgid ""
+"console.log(newLocation.monsters.at(0).settings.type); // \"demon\n"
+"```"
+msgstr ""
+"console.log(newLocation.monsters.at(0).settings.type); // “demon\n"
+"```"

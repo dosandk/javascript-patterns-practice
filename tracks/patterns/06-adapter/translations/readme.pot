@@ -1,0 +1,51 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:2
+msgid "# Adapter"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:5
+msgid ""
+"> Позволяет объектам с несовместимыми интерфейсами работать вместе.\n"
+"> Превращает интерфейс одного класса в интерфейс, ожидаемый клиентом."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:8
+msgid ""
+"- Type: Structural\n"
+"- Complexity: ⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:11
+msgid ""
+"Ф-ция `getArea` вычисляет площадь, перемножая св-ва `width` и `height` "
+"объекта, созданного\n"
+"классом `Rectangle`."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:14
+msgid ""
+"Пожалуйста, сконструируйте класс `Adapter`, к-й позволит использовать ф-цию "
+"`getArea` для\n"
+"вычисления площади объекта, созданного классом `Square`."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:17
+msgid ""
+"```js\n"
+"getArea(new Adapter(new Square(10))); // 100\n"
+"```"
+msgstr ""

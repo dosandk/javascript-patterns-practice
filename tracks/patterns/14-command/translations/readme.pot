@@ -1,0 +1,79 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:2
+msgid "# Command"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:6
+msgid ""
+"> Превращает запросы в объекты, позволяя передавать их как аргументы\n"
+"> при вызове методов, ставить запросы в очередь, логировать их,\n"
+"> а также поддерживать отмену операций."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:9
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:12
+msgid ""
+"Представьте что Вы разрабатываете Web-приложение для отображения различной\n"
+"документации."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:15
+msgid ""
+"Перед Вами встала задача реализовать удобную пагинацию - перемещение\n"
+"по страницам приложения."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:19
+msgid ""
+"Для того чтобы повысить удобство использования, Вы решили что перемещение\n"
+"по страницам может осуществляться не только кнопками, но и к примеру с \n"
+"помощью гарячих клавиш."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:22
+msgid ""
+"Также, Вы бы хотели, чтобы функционал компонент, таких как кнопки, не "
+"зависел\n"
+"от функционала пагинации."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:24
+msgid ""
+"Для решения поставленной задачи Вы решили воспользоваться паттерном \"Command"
+"\"."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:28
+msgid ""
+"Пожалуйста, реализуйте методы `execute` классов `NextPage` и `PrevPage`, а\n"
+"также свяжите их функционал с классом `Button`, описывающим компонент \n"
+"кнопки."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/14-command/readme.md:31
+msgid ""
+"При выполнении команд перехода на предыдущую или следующую страницу, "
+"объекты\n"
+"классов `NextPage` и `PrevPage` должны изменять состояния объекта пагинации,"
+"\n"
+"созданного классом `Pagination`."
+msgstr ""

@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 14:20+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:2
+msgid "# Strategy"
+msgstr "# Strategy"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:5
+msgid ""
+"> Определяет семейство схожих алгоритмов, после чего алгоритмы "
+"можно\n"
+"> взаимозаменять прямо во время исполнения программы"
+msgstr ""
+"> Defines a family of similar algorithms, after which the algorithms "
+"can\n"
+"> Interchange the algorithms at runtime"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:11
+msgid ""
+"Представьте что Вы разрабатываете компьютерную игру, где Ваш герой\n"
+"отправляется навстречу приключениям, попутно сражаясь с монстрами."
+msgstr ""
+"Imagine you are designing a computer game where your hero\n"
+"goes on adventures and fights monsters along the way."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:14
+msgid ""
+"От того какое оружие Ваш герой найдет на тропе приключений,\n"
+"будет зависеть сила его атаки против монстров."
+msgstr ""
+"What kind of weapon your hero finds on the trail of adventures,\n"
+"will determine the strength of his attack against the monsters."
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:17
+msgid ""
+"Пожалуйста, реализуйте метод `attack` в каждом из классов `Sword` и "
+"`MagicWand`\n"
+"по аналогии с классом `Club` "
+msgstr ""
+"Please implement the `attack` method in each of the `Sword` and "
+"`MagicWand` classes\n"
+"similar to the class `Club`"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:18
+msgid ""
+"Организуйте связь между классом `Hero` и видами оружия через паттерн "
+"\"Strategy\"."
+msgstr ""
+"Organize the connection between the class `Hero` and the weapons "
+"through the pattern \"Strategy\"."

@@ -1,0 +1,47 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/readme.md:2
+msgid "# Observer"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/readme.md:6
+msgid ""
+"> Позволяет создать механизм подписки, который позволит некоторым \n"
+"> сущностям следить и реагировать на события, происходящие в других\n"
+"> сущностях, как следствие обеспечивая слабую связанность."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/readme.md:9
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/readme.md:14
+msgid ""
+"Пожалуйста, реализуйте методы `subscribe` класса `NewsChannel`\n"
+"к-й позволит всем желающим пользователям подписаться на новостные\n"
+"сообщения, и метод `notify` к-й будет заниматься рассылкой этих сообщений "
+"для всех\n"
+"подписчиков."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/readme.md:16
+msgid ""
+"Также реализуйте метод `receiveMessage` класса `User` для получения "
+"сообщений и их\n"
+"записи в поле `messageHistory`."
+msgstr ""

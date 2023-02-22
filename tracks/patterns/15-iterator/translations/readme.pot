@@ -1,0 +1,47 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:2
+msgid "# Iterator"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:5
+msgid ""
+"> Позволяет итерировать некоторую сущность не раскрывая ее внутреннего\n"
+"> устройства."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:8
+msgid ""
+"- Type: Behavioral\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:10
+msgid "Пожалуйста, реализуйте методы `forEach` и `getRange` класса `Range`."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:14
+msgid ""
+"Метод `forEach` позволяет выполнить итерацию используя параметры `start`\n"
+"и `end` класса `Range`, применяя ф-цию \"callback\", переданную в качестве "
+"аргумента, \n"
+"на каждом этапе итерации."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/15-iterator/readme.md:15
+msgid ""
+"Метод `getRange` генерирует и возвращает массив чисел от `start` до `end`."
+msgstr ""

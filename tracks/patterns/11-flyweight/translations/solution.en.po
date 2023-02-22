@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: 2023-02-22 16:09+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:2
+msgid "# Flyweight solution"
+msgstr "# Flyweight solution"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:9
+msgid ""
+"```js\n"
+"class Flyweight {\n"
+"  constructor(sharedState = {}) {\n"
+"    this.sharedState = sharedState;\n"
+"  }\n"
+"}"
+msgstr ""
+"```js\n"
+"class Flyweight {\n"
+"  constructor(sharedState = {}) {\n"
+"    this.sharedState = sharedState;\n"
+"  }\n"
+"}"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:13
+msgid ""
+"export class ProductsStore {\n"
+"  flyweights = {};\n"
+"  products = [];"
+msgstr ""
+"export class ProductsStore {\n"
+"  flyweights = {};\n"
+"  products = [];"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:16
+msgid ""
+"  addProduct (productData = {}) {\n"
+"    const productFlyweight = this.getOrCreateFlyweight(productData.info);"
+msgstr ""
+"  addProduct (productData = {}) {\n"
+"    const productFlyweight = this.getOrCreateFlyweight(productData.info);"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:21
+msgid ""
+"    const product = {\n"
+"      model: productData.model,\n"
+"      info: productFlyweight.sharedState\n"
+"    };"
+msgstr ""
+"    const product = {\n"
+"      model: productData.model,\n"
+"      info: productFlyweight.sharedState\n"
+"    };"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:24
+msgid ""
+"    this.products.push(product);\n"
+"  }"
+msgstr ""
+"    this.products.push(product);\n"
+"  }"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:27
+msgid ""
+"  getOrCreateFlyweight (info = {}) {\n"
+"    const key = Object.values(info).map(item => item.toLowerCase())."
+"join('-');"
+msgstr ""
+"  getOrCreateFlyweight (info = {}) {\n"
+"    const key = Object.values(info).map(item => item.toLowerCase())."
+"join('-');"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:31
+msgid ""
+"    if (this.flyweights[key]) {\n"
+"      return this.flyweights[key];\n"
+"    }"
+msgstr ""
+"    if (this.flyweights[key]) {\n"
+"      return this.flyweights[key];\n"
+"    }"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:33
+msgid "    this.flyweights[key] = new Flyweight(info);"
+msgstr "    this.flyweights[key] = new Flyweight(info);"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/11-flyweight/solution/readme.md:37
+msgid ""
+"    return this.flyweights[key];\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""
+"    return this.flyweights[key];\n"
+"  }\n"
+"}\n"
+"```"

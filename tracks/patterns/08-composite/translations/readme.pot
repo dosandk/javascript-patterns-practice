@@ -1,0 +1,56 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/08-composite/readme.md
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/08-composite/readme.md:2
+msgid "# Composite"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/08-composite/readme.md:5
+msgid ""
+"> Позволяет сгруппировать множество объектов в древовидную структуру,\n"
+"> а затем работать с ней так, как будто это единичный объект."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/08-composite/readme.md:8
+msgid ""
+"- Type: Structural\n"
+"- Complexity: ⭐⭐⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/08-composite/readme.md:12
+msgid ""
+"Пожалуйста, реализуйте метод `getSum` для классов `Child` и `Parent` \n"
+"таким образом, чтобы можно было рассчитать общую сумму `value` для\n"
+"всех эл-тов вложенной структуры."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/08-composite/readme.md:22
+msgid ""
+"```js\n"
+"const list = new Parent([\n"
+"  new Child(1),\n"
+"  new Child(1),\n"
+"  new Parent([\n"
+"    new Child(2),\n"
+"    new Child(3),\n"
+"  ])\n"
+"]);"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/08-composite/readme.md:24
+msgid ""
+"list.getSum(); // 7\n"
+"```"
+msgstr ""
