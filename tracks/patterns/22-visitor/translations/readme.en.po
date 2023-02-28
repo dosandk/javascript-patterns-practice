@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 15:29+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,7 +23,8 @@ msgid ""
 "> Позволяет добавлять в программу новые операции, не изменяя классы \n"
 "> объектов, над которыми эти операции могут выполняться."
 msgstr ""
-"> Allows you to add new operations to the program without changing the classes of\n"
+"> Allows you to add new operations to the program without changing the "
+"classes of\n"
 "> Objects on which these operations can be performed."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/readme.md:8
@@ -34,11 +36,13 @@ msgstr ""
 "- Complexity: ⭐⭐⭐"
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/readme.md:11
+#, fuzzy
 msgid ""
-"Пожалуйста, реализуйте класс `Visitor` с помощью к-го в класс `Comment` \n"
-"появится возможность добавить метод `getSize`."
+"Пожалуйста, реализуйте класс `Visitor` с помощью к-го в классе `Comment` \n"
+"появится возможность использовать метод `getSize`."
 msgstr ""
-"Please implement class `Visitor` with which to add method `getSize` to class `Comment`\n"
+"Please implement class `Visitor` with which to add method `getSize` to class "
+"`Comment`\n"
 "class will be able to add the `getSize` method."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/readme.md:14

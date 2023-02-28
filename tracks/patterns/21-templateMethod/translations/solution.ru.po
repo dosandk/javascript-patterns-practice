@@ -1,0 +1,106 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
+"PO-Revision-Date: 2023-02-23 13:00+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:2
+msgid "# Template Method solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:6
+msgid ""
+"```js\n"
+"class HotDrinksPot {\n"
+"  algorithmSteps = {};"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:10
+msgid ""
+"  constructor() {\n"
+"    this.prepareRecipe();\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:17
+msgid ""
+"  prepareRecipe () {\n"
+"    this.boilWater();\n"
+"    this.brew();\n"
+"    this.pourInCup();\n"
+"    this.addCondiments();\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:21
+msgid ""
+"  boilWater () {\n"
+"    this.algorithmSteps.boilWater = 'Boiling water';\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:25
+msgid ""
+"  brew () {\n"
+"    this.algorithmSteps.brew = 'Brewing';\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:29
+msgid ""
+"  pourInCup () {\n"
+"    this.algorithmSteps.pourInCup = 'Pouring into cup';\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:34
+msgid ""
+"  addCondiments () {\n"
+"    this.algorithmSteps.addCondiments = 'Adding condiment';\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:39
+msgid ""
+"export class TeaPot extends HotDrinksPot {\n"
+"  brew () {\n"
+"    this.algorithmSteps.brew = 'Steeping the tea';\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:44
+msgid ""
+"  addCondiments () {\n"
+"    this.algorithmSteps.addCondiments = 'Adding Lemon';\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:49
+msgid ""
+"export class CoffeePot extends HotDrinksPot {\n"
+"  brew () {\n"
+"    this.algorithmSteps.brew = 'Dripping Coffee through filter';\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/21-templateMethod/solution/readme.md:54
+msgid ""
+"  addCondiments () {\n"
+"    this.algorithmSteps.addCondiments = 'Adding Sugar and Milk';\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

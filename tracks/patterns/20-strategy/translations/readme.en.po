@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 14:20+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,12 +20,10 @@ msgstr "# Strategy"
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:5
 msgid ""
-"> Определяет семейство схожих алгоритмов, после чего алгоритмы "
-"можно\n"
+"> Определяет семейство схожих алгоритмов, после чего алгоритмы можно\n"
 "> взаимозаменять прямо во время исполнения программы"
 msgstr ""
-"> Defines a family of similar algorithms, after which the algorithms "
-"can\n"
+"> Defines a family of similar algorithms, after which the algorithms can\n"
 "> Interchange the algorithms at runtime"
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:8
@@ -52,13 +51,14 @@ msgstr ""
 "will determine the strength of his attack against the monsters."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:17
+#, fuzzy
 msgid ""
 "Пожалуйста, реализуйте метод `attack` в каждом из классов `Sword` и "
 "`MagicWand`\n"
-"по аналогии с классом `Club` "
+"по аналогии с классом `Club`"
 msgstr ""
-"Please implement the `attack` method in each of the `Sword` and "
-"`MagicWand` classes\n"
+"Please implement the `attack` method in each of the `Sword` and `MagicWand` "
+"classes\n"
 "similar to the class `Club`"
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:18
@@ -66,5 +66,5 @@ msgid ""
 "Организуйте связь между классом `Hero` и видами оружия через паттерн "
 "\"Strategy\"."
 msgstr ""
-"Organize the connection between the class `Hero` and the weapons "
-"through the pattern \"Strategy\"."
+"Organize the connection between the class `Hero` and the weapons through the "
+"pattern \"Strategy\"."

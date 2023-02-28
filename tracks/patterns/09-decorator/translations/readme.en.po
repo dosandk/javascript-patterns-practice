@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 16:15+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,7 +23,8 @@ msgid ""
 "> С помощью \"оберток\" реализует динамическое расширение функционала \n"
 "> используя механизм агрегации или композиции."
 msgstr ""
-"> With the help of \"wrappers\" it implements a dynamic expansion of functionality\n"
+"> With the help of \"wrappers\" it implements a dynamic expansion of "
+"functionality\n"
 "> Using an aggregation or composition mechanism."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:8
@@ -46,7 +48,8 @@ msgid ""
 "В каждом из классов `Milk` и `Sugar` необходимо объявить метод `getPrice`,\n"
 "к-й внесет коррективы в итоговую стоимость напитка."
 msgstr ""
-"In each of the `Milk` and `Sugar` classes you need to declare a `getPrice` method,\n"
+"In each of the `Milk` and `Sugar` classes you need to declare a `getPrice` "
+"method,\n"
 "which will adjust the total cost of the drink."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:17

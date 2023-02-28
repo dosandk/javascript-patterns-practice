@@ -12,9 +12,6 @@ describe('patterns/abstractFactory', () => {
   it('should be able to create "success" and "error" factories', () => {
     const factory = new ControlsFactory();
 
-    console.error(typeof factory.getFactory('error'));
-    console.error(typeof factory.getFactory('success'));
-
     expect(factory.getFactory('success') instanceof SuccessControl).toBeTrue();
     expect(factory.getFactory('error') instanceof ErrorControl).toBeTrue();
   });

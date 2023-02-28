@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 14:26+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"

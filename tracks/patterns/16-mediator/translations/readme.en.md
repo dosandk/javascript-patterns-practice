@@ -6,9 +6,9 @@
 - Type: Behavioral
 - Complexity: ⭐⭐
 
-Imagine that your friends like to spend time together in different cafes, but
-trouble is, in those cafes, the check for payment is given only per table, not per
-each guest individually.
+Представьте что Ваши друзья любят проводить время вместе в разных кафе, но
+вот беда, в этих кафе чек на оплату выдается только на столик, а не на
+каждого гостя индивидуально.
 
 ![](/assets/friends.png)
 

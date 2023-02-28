@@ -37,6 +37,7 @@ const parseTracksAndSaveToDB = async () => {
         taskId: `${trackDir}-${taskName}`,
         ...filesContent
       };
+
       const task = await createOrUpdateTask(taskData);
 
       trackData.tasks.push(task._id);
@@ -48,7 +49,7 @@ const parseTracksAndSaveToDB = async () => {
 
 const run = () => {
   try {
-    console.error('process.env.MONGODB_URI', process.env.MONGODB_URI);
+    console.log('process.env.MONGODB_URI', process.env.MONGODB_URI);
 
     mongoose.connect(process.env.MONGODB_URI, async error => {
       if (error) {

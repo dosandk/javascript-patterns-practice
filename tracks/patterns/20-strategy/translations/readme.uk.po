@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 14:21+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -51,10 +52,11 @@ msgstr ""
 "залежатиме сила його атаки проти монстрів."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/20-strategy/readme.md:17
+#, fuzzy
 msgid ""
 "Пожалуйста, реализуйте метод `attack` в каждом из классов `Sword` и "
 "`MagicWand`\n"
-"по аналогии с классом `Club` "
+"по аналогии с классом `Club`"
 msgstr ""
 "Будь ласка, реалізуйте метод `attack` у кожному з класів `Sword` і "
 "`MagicWand`\n"

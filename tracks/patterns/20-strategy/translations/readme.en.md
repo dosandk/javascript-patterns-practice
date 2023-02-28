@@ -12,7 +12,7 @@ goes on adventures and fights monsters along the way.
 What kind of weapon your hero finds on the trail of adventures,
 will determine the strength of his attack against the monsters.
 
-Please implement the `attack` method in each of the `Sword` and `MagicWand` classes
-similar to the class `Club`
+Пожалуйста, реализуйте метод `attack` в каждом из классов `Sword` и `MagicWand`
+по аналогии с классом `Club`
 
 Organize the connection between the class `Hero` and the weapons through the pattern "Strategy".

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +31,8 @@ msgstr ""
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/readme.md:11
 msgid ""
-"Пожалуйста, реализуйте класс `Visitor` с помощью к-го в класс `Comment` \n"
-"появится возможность добавить метод `getSize`."
+"Пожалуйста, реализуйте класс `Visitor` с помощью к-го в классе `Comment` \n"
+"появится возможность использовать метод `getSize`."
 msgstr ""
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/readme.md:14

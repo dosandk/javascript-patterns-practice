@@ -1,0 +1,94 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
+"PO-Revision-Date: 2023-02-23 13:00+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:2
+msgid "# Visitor solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:9
+msgid ""
+"```js\n"
+"export class Visitor {\n"
+"  constructor(compositeItem) {\n"
+"    this.compositeItem = compositeItem;\n"
+"    this.init();\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:12
+msgid ""
+"  init () {\n"
+"    this.addGetSize();"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:17
+msgid ""
+"    for (const child of this.compositeItem.children) {\n"
+"      child.accept(Visitor);\n"
+"    }\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:20
+msgid ""
+"  addGetSize () {\n"
+"    let count = 0;"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:23
+msgid ""
+"    this.compositeItem.getSize = () => {\n"
+"      count += 1;"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:27
+msgid ""
+"      for (const child of this.compositeItem.children) {\n"
+"        count += child.getSize();\n"
+"      }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:32
+msgid ""
+"      return count;\n"
+"    };\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:43
+msgid ""
+"export class Comment {\n"
+"  constructor({\n"
+"    id = '',\n"
+"    content = '',\n"
+"    children = []\n"
+"  } = {}) {\n"
+"    this.id = id;\n"
+"    this.content = content;\n"
+"    this.children = children;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/22-visitor/solution/readme.md:48
+msgid ""
+"  accept (Visitor) {\n"
+"    new Visitor(this);\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

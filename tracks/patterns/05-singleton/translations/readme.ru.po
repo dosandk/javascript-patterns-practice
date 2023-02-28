@@ -1,0 +1,45 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
+"PO-Revision-Date: 2023-02-23 13:00+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:2
+msgid "# Singleton"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:4
+msgid "> Гарантирует, что у класса есть только один экземпляр"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:7
+msgid ""
+"- Type: Creational\n"
+"- Complexity: ⭐⭐"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:12
+msgid ""
+"Пожалуйста, реализуйте логику конструктора класса таким образом, чтобы\n"
+"при создании объектов с помощью данного класса, возвращалась ссылка\n"
+"на один и тот же объект, или, другими словами, объект с помощью данного\n"
+"класса был создан только один раз."
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/05-singleton/readme.md:15
+msgid ""
+"```js\n"
+"console.log(new Singleton() === new Singleton()); // true\n"
+"```"
+msgstr ""

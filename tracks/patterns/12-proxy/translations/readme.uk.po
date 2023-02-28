@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 16:08+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -54,8 +55,7 @@ msgid ""
 "имеют права на запись."
 msgstr ""
 "У певний момент Вам знадобилося обмежити права користувачів\n"
-"на запис у репозиторій. Тепер тільки користувачі з правами "
-"адміністратора\n"
+"на запис у репозиторій. Тепер тільки користувачі з правами адміністратора\n"
 "мають права на запис."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/readme.md:20
@@ -68,8 +68,7 @@ msgstr ""
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/readme.md:24
 msgid ""
-"Хорошо что Вы знакомы с паттерном \"Proxy\", к-й позволит обойти "
-"данное \n"
+"Хорошо что Вы знакомы с паттерном \"Proxy\", к-й позволит обойти данное \n"
 "ограничение за счет того что обращение к объекту пользователя будет\n"
 "происходить через объект-прокси."
 msgstr ""
@@ -85,8 +84,7 @@ msgid ""
 "имели права на запись в репозиторий."
 msgstr ""
 "Будь ласка, реалізуйте логіку конструктора і метод `write` класу\n"
-"`ProxyUser`, таким чином, що б тільки користувачі з правами "
-"адміністратора\n"
+"`ProxyUser`, таким чином, що б тільки користувачі з правами адміністратора\n"
 "мали права на запис у репозиторій."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/12-proxy/readme.md:30

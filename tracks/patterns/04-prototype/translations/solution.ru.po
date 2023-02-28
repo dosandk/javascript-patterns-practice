@@ -1,0 +1,59 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/solution/readme.md
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
+"PO-Revision-Date: 2023-02-23 13:00+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/solution/readme.md:2
+msgid "# Prototype solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/solution/readme.md:9
+msgid ""
+"```js\n"
+"class Monster {\n"
+"  constructor(settings = {}) {\n"
+"    this.settings = settings;\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/solution/readme.md:17
+msgid ""
+"export default class Location {\n"
+"  constructor(name = '', monstersCount = 0, monstersSettings = {}) {\n"
+"    this.name = name;\n"
+"    this.monstersCount = monstersCount;\n"
+"    this.monstersSettings = {...monstersSettings};\n"
+"    this.initMonsters();\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/solution/readme.md:21
+msgid ""
+"  initMonsters () {\n"
+"    this.monsters = new Array(this.monstersCount).fill(new Monster(this."
+"monstersSettings));\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/04-prototype/solution/readme.md:26
+msgid ""
+"  clone () {\n"
+"    return new Location(this.name, this.monstersCount, this."
+"monstersSettings);\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

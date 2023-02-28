@@ -1,0 +1,123 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
+"PO-Revision-Date: 2023-02-23 13:00+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:2
+msgid "# Mediator solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:7
+msgid ""
+"```js\n"
+"export class BillSharing {\n"
+"  participants = [];\n"
+"  balance = 0;"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:11
+msgid ""
+"  constructor(price = 0) {\n"
+"    this.price = price;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:15
+msgid ""
+"  addParticipant (participant) {\n"
+"    this.participants.push(participant);\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:19
+msgid ""
+"  getPaymentAmount() {\n"
+"    return this.price / this.participants.length;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:23
+msgid ""
+"  pay (amount = 0) {\n"
+"    this.balance += amount;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:29
+msgid ""
+"  share () {\n"
+"    for (const participant of this.participants) {\n"
+"      participant.pay();\n"
+"    }\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:32
+msgid ""
+"  borrow (amount = 0) {\n"
+"    const participants = this.participants.filter(participant => participant."
+"cash);"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:38
+msgid ""
+"    for (const participant of participants) {\n"
+"      participant.borrow(amount / participants.length);\n"
+"    }\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:45
+msgid ""
+"export class User {\n"
+"  constructor(name = '', cash = 0, billSharing) {\n"
+"    this.name = name;\n"
+"    this.cash = cash;\n"
+"    this.billSharing = billSharing;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:48
+msgid ""
+"  pay () {\n"
+"    const billPart = this.billSharing.getPaymentAmount();"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:59
+msgid ""
+"    if (this.cash >= billPart) {\n"
+"      this.cash -= billPart;\n"
+"      this.billSharing.pay(billPart);\n"
+"    } else {\n"
+"      this.billSharing.pay(this.cash);\n"
+"      const amount = billPart - this.cash;\n"
+"      this.cash = 0;\n"
+"      this.billSharing.borrow(amount);\n"
+"    }\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/16-mediator/solution/readme.md:67
+msgid ""
+"  borrow (amount = 0) {\n"
+"    if (this.cash >= amount) {\n"
+"      this.billSharing.pay(amount);\n"
+"      this.cash -= amount;\n"
+"    }\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""

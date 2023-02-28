@@ -6,8 +6,8 @@
 - Type: Behavioral
 - Complexity: ⭐⭐⭐
 
-Please implement class `Visitor` with which to add method `getSize` to class `Comment`
-class will be able to add the `getSize` method.
+Пожалуйста, реализуйте класс `Visitor` с помощью к-го в классе `Comment` 
+появится возможность использовать метод `getSize`.
 
 The `getSize` method will calculate the number of nested comments,
 created with the class `Comment`.

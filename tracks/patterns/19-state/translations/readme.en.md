@@ -6,8 +6,8 @@
 - Type: Behavioral
 - Complexity: ⭐⭐
 
-Imagine you have to refactor a very difficult class
-`OldDigitalLock' class.
+Представьте что Вам предстоит произвести рефакторинг очень непростого класса
+`OldDigitalLock`.
 
 This class works similarly to a code lock, which is often found
 on locker doors in checkrooms or on bicycle parking chains.

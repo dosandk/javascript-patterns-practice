@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 16:25+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -40,8 +41,8 @@ msgid ""
 "объекта, созданного\n"
 "классом `Rectangle`."
 msgstr ""
-"Ф-ція `getArea` обчислює площу, перемножуючи властивості `width` та "
-"`height` об'єкта, створеного\n"
+"Ф-ція `getArea` обчислює площу, перемножуючи властивості `width` та `height` "
+"об'єкта, створеного\n"
 "класом `Rectangle`."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/06-adapter/readme.md:14

@@ -7,6 +7,37 @@ const TaskSchema = new mongoose.Schema({
   solution: { type: String, required: true },
   readme: { type: String, required: true },
   solutionReadme: { type: String, required: true },
+  languages: { type: [String], required: false },
+  translations: {
+    readme: {
+      ru: {
+        type: String,
+        required: false
+      },
+      en: {
+        type: String,
+        required: false
+      },
+      uk: {
+        type: String,
+        required: false
+      }
+    },
+    solutionReadme: {
+      ru: {
+        type: String,
+        required: false
+      },
+      en: {
+        type: String,
+        required: false
+      },
+      uk: {
+        type: String,
+        required: false
+      }
+    },
+  },
   taskId: { type: String, required: true, index: true },
   taskName: { type: String, required: true },
   trackId: { type: String, required: true },

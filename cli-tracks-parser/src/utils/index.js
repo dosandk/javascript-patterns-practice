@@ -28,14 +28,43 @@ export const getDirs = async (dirPath = '') => {
   return dirs;
 };
 
+const getTranslation = async (itemPath) => {
+  const filesContent = {
+    readme: {},
+    solutionReadme: {}
+  };
+
+  if (/solution\.(?:.+)\.md/.test(itemPath)) {
+    const locale = itemPath.match(/solution\.(.+)\.md/)[1];
+
+    filesContent.solutionReadme[locale] = await fs.readFile(itemPath, 'utf-8');
+  }
+
+  if (/readme\.(?:.+)\.md/.test(itemPath)) {
+    const locale = itemPath.match(/readme\.(.+)\.md/)[1];
+
+    filesContent.readme[locale] = await fs.readFile(itemPath, 'utf-8');
+  }
+
+  return filesContent;
+};
+
+// TODO: add reading according translation
 export const readFilesFromDir = async dirPath => {
   const list = await fs.readdir(dirPath);
   const filesContent = {};
+  const contentTranslations = {
+    readme: {},
+    solutionReadme: {}
+  };
 
   const doStep = async (filesList, dirName) => {
     if (!filesList.length) return;
 
     for (const item of filesList) {
+      // NOTE: skip hidden directories and files with '_' prefix
+      if (item.startsWith('_')) continue;
+
       const paths = dirName ? [dirPath, dirName, item] : [dirPath, item];
       const itemPath = path.join(...paths);
       const stats = await fs.stat(itemPath);
@@ -50,11 +79,24 @@ export const readFilesFromDir = async dirPath => {
         if (key) {
           filesContent[key] = await fs.readFile(itemPath, 'utf-8');
         }
+
+        // NOTE: get translations
+        const translations = await getTranslation(itemPath);
+
+        if (translations.readme) {
+          Object.assign(contentTranslations.readme, translations.readme);
+        }
+        if (translations.solutionReadme) {
+          Object.assign(contentTranslations.solutionReadme, translations.solutionReadme);
+        }
       }
     }
   };
 
   await doStep(list);
+
+  filesContent.translations = contentTranslations;
+  filesContent.languages = Object.keys(contentTranslations.readme);
 
   return filesContent;
 };
@@ -64,11 +106,11 @@ export const createOrUpdateTask = async taskData => {
 
   if (updatedTask) {
     return updatedTask;
-  } else {
-    const task = new TaskModel({ ...taskData });
-
-    return await task.save();
   }
+
+  const task = new TaskModel({ ...taskData });
+
+  return await task.save();
 };
 
 export const createOrUpdateTrack = async trackData => {
@@ -76,9 +118,9 @@ export const createOrUpdateTrack = async trackData => {
 
   if (updatedTrack) {
     return updatedTrack;
-  } else {
-    const track = new TrackModel({ ...trackData });
-
-    return await track.save();
   }
+
+  const track = new TrackModel({ ...trackData });
+
+  return await track.save();
 };

@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 16:42+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -89,4 +90,5 @@ msgstr ""
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/10-facade/readme.md:31
 msgid "Пожалуйста, реализуйте метод `start` класса `Game` для запуска игры."
-msgstr "Please implement the `start` method of the `Game` class to start the game."
+msgstr ""
+"Please implement the `start` method of the `Game` class to start the game."

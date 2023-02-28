@@ -1,8 +1,9 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 13:31+0300\n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
 "PO-Revision-Date: 2023-02-22 16:17+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -44,12 +45,10 @@ msgstr ""
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:14
 msgid ""
-"В каждом из классов `Milk` и `Sugar` необходимо объявить метод "
-"`getPrice`,\n"
+"В каждом из классов `Milk` и `Sugar` необходимо объявить метод `getPrice`,\n"
 "к-й внесет коррективы в итоговую стоимость напитка."
 msgstr ""
-"У кожному з класів `Milk` і `Sugar` необхідно оголосити метод "
-"`getPrice`,\n"
+"У кожному з класів `Milk` і `Sugar` необхідно оголосити метод `getPrice`,\n"
 "к-й внесе корективи в підсумкову вартість напою."
 
 #: /Users/Shared/javascript-patterns-practice/tracks/patterns/09-decorator/readme.md:17

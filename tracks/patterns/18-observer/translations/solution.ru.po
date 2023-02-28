@@ -1,0 +1,62 @@
+#. extracted from /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 13:00+0300\n"
+"PO-Revision-Date: 2023-02-23 13:00+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.3\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md:2
+msgid "# Observer solution"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md:6
+msgid ""
+"```js\n"
+"export class NewsChannel {\n"
+"  users = [];"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md:10
+msgid ""
+"  subscribe (user) {\n"
+"    this.users.push(user);\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md:17
+msgid ""
+"  notify (message = '') {\n"
+"    for (const user of this.users) {\n"
+"      user.receiveMessage(message);\n"
+"    }\n"
+"  }\n"
+"}"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md:23
+msgid ""
+"export class User {\n"
+"  messagesHistory = [];\n"
+"  constructor(name) {\n"
+"    this.name = name;\n"
+"  }"
+msgstr ""
+
+#: /Users/Shared/javascript-patterns-practice/tracks/patterns/18-observer/solution/readme.md:28
+msgid ""
+"  receiveMessage (message = '') {\n"
+"    this.messagesHistory.push(message);\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""
